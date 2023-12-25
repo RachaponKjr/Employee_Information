@@ -1,0 +1,15 @@
+.btn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -3rem;
+    width: 0;
+    height: 100%;
+    transform: skewX(-10deg);
+    background: #111111;
+    transition: 0.5s;
+    z-index: -1;
+}
+.btn:hover::before{
+    width: 140%;
+}

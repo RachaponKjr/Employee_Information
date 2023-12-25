@@ -1,0 +1,24 @@
+.mySwiper{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    margin: 0;
+}
+
+.chakra-tabs__tab{
+    background-color: transparent;
+    color: #1c242e
+}
+.chakra-tabs__tab:hover{
+    background-color: #C5F6D5;
+}
+.chakra-tabs__tab[aria-selected="true"]{
+    background-color: #9ff8bd;
+    border: none;
+    color: #1c242e
+}
